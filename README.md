@@ -1,4 +1,9 @@
 # Links
+https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
+https://laracasts.com/discuss/channels/vue/vue-add-a-service-to-the-app-or-component
+https://vuejsfeed.com/blog/vue-i18n-implementing-translations-in-vue-js
+https://alligator.io/vuejs/using-filters/
+
 Watch me shit
 https://www.npmjs.com/package/vue-typescript
 
