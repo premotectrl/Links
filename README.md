@@ -1,4 +1,6 @@
 # Links
+http://www2.fct.unesp.br/docentes/carto/ivanova/workshops/Modern%20Web-Cartography/HTML5%20Graphing%20and%20Data%20Visualization%20Cookbook%20%5BeBook%5D.pdf
+
 https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
 https://laracasts.com/discuss/channels/vue/vue-add-a-service-to-the-app-or-component
 https://vuejsfeed.com/blog/vue-i18n-implementing-translations-in-vue-js
