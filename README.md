@@ -1,4 +1,7 @@
 # Links
+
+https://blog.yojimbocorp.com/2012/01/17/creating-a-simple-pie-chart-with-html5-canvas/
+
 http://www2.fct.unesp.br/docentes/carto/ivanova/workshops/Modern%20Web-Cartography/HTML5%20Graphing%20and%20Data%20Visualization%20Cookbook%20%5BeBook%5D.pdf
 
 https://stackoverflow.com/questions/41164672/whats-the-equivalent-of-angular-service-in-vuejs
