@@ -23,4 +23,55 @@ https://vuejsdevelopers.com/2018/05/21/vue-js-web-component/
 
 https://alligator.io/vuejs/custom-elements/
 
+for Kuka mobile plug in
 
+<template>
+    <div>
+        Battery
+        <KukaGauge :level ="level" : title="title" :configuration ="configuration"/>
+    </div>
+</template>
+
+<script>
+import KukaGauge from '../../../controls/KukaGauge.vue';
+const configuration = {
+        width: 160,
+        height: 85, // height is set to atleast half of the width for best results
+        showNeedle: false,
+        ranges: [
+          { lowerBound: 0, upperBound: 10, color: '#CF2027', icon: icon1 },
+          { lowerBound: 11, upperBound: 25, color: '#FF5800', icon: icon2 },
+          { lowerBound: 26, upperBound: 50, color: '#FFCD00', icon: icon3 },
+          { lowerBound: 51, upperBound: 75, color: '#6EC8A0', icon: icon4 },
+          { lowerBound: 76, upperBound: 100, color: '#1B8642', icon: icon5 },
+        ],
+        backgroundRanges: [
+          { lowerBound: 0, upperBound: 33, color: '#E1E2E3' },
+          { lowerBound: 33, upperBound: 66, color: '#D1D3D5' },
+          { lowerBound: 66, upperBound: 100, color: '#A4A7AA' },
+        ],
+      };
+const showNeedle = boolean('SHOW NEEDLE',false);
+const title = text('TITLE', 'Average Battery');
+export default {
+    name: "robot-battery-map",
+    data(){
+        return{
+            level: 34,
+        }
+    },
+    computed: {
+        configuration(){
+            configuration.showNeedle = showNeedle;
+            return Object.assign({}, configuration);
+        },
+        title(){
+            return title;
+        }
+    }
+}
+</script>
+
+<style scoped>
+
+</style>
