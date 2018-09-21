@@ -1,4 +1,7 @@
 # Links
+
+https://www.youtube.com/watch?v=DJqYh-8zYR4
+
 https://vueschool.io/courses/vuex-for-everyone#disqus_thread
 
 https://codepen.io/Stephanie_Cunnane/pen/Jbdgk
